@@ -34,3 +34,5 @@ This branch (`woowtech-ui`) extends the standard add-on with:
 ## Architecture
 
 The WOOWTECH UI overlay (84 MB compressed) is downloaded during Docker build from a GitHub Release asset and applied on top of the official HA base image. All modifications are architecture-independent (Python/JS/HTML/CSS), so the same overlay works on both amd64 and aarch64.
+
+The overlay is verified with SHA256 checksum to ensure integrity.
